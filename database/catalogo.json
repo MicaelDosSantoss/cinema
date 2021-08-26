@@ -1,0 +1,40 @@
+[
+    {
+        "codigo": 1,
+        "titulo": "Luca",
+        "duracao": 1.3,
+        "atores": ["Kalebe", "Giovanna", "Leonardo di Cabri"],
+        "anoLancamento": 2021,
+        "emCartaz": true
+    },
+
+    {
+        "codigo": 2,
+        "titulo": "Velozes é Furiosos 9",
+        "duracao": 4.9,
+        "atores": ["Japones","Toretto"],
+        "anoLancamento": 2021,
+        "emCartaz": true
+    },
+    
+
+    {
+        "codigo": 3,
+        "titulo": "V de Vingança",
+        "duracao": 1.40,
+        "atores": ["Natalie Portaman", "Hugo Weaving"],
+        "anoLancamento": 1990,
+        "emCartaz": false
+    }, 
+    {
+        "codigo": 4,
+        "titulo": "Titanic",
+        "duracao": 2.0,
+        "atores": ["Leornado de Cabri"],
+        "anoLancamento": 1998,
+        "emCartaz": false
+    }
+    
+    
+    
+]
