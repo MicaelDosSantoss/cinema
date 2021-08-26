@@ -218,3 +218,5 @@ if (filmeEncontrado.duracao >= 2.0) {
 
 listaDeFilmesLongo(2)
 
+var g = 2+1
+
