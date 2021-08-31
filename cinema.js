@@ -1,8 +1,35 @@
 var filmes = require('./database/catalogo.json')
 
+
 var cinema = "CineHouse"
 var slogan = 'O melhor cinema da região'
 
+// server  Node.JS
+
+// const http = require('http')
+
+// http.createServer((req,res) => {
+//    res.writeHead(200,{"Content-text":"text/plain"})
+//    switch (req.url) {
+//      case "/" :
+//          res.end("Você está na pagina home!")
+//          break;
+//     case "/contato":
+//         res.end("Você está na pagina contato")
+//         break;
+//    }
+// res.end("Meu primeiro server")
+
+// }).listen(1232);
+
+const express = require('express');
+
+let app = express();
+
+// Server Express
+app.get('/',(req,res)=> res.send("ON!!!!"))
+app.get("/contatos",(req,res) => res.send(["Naruto","Nanatsu no Taizai"]))
+app.listen(1232,()=>console.log("O server Esta ON!"))
 // console.log(cinema + ' // ' + slogan)
 
 // [

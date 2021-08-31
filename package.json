@@ -1,12 +1,23 @@
 {
   "name": "CineHouse",
   "version": "1.0.0",
-  "description": "",
   "main": "cinema.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knuckelstr/teste-git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knuckelstr/teste-git/issues"
+  },
+  "homepage": "https://github.com/knuckelstr/teste-git#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
