@@ -28,7 +28,22 @@ let app = express();
 
 // Server Express
 app.get('/',(req,res)=> res.send("ON!!!!"))
-app.get("/contatos",(req,res) => res.send(["Naruto","Nanatsu no Taizai"]))
+
+var usuarios = [{id: 1 ,nome: Micael, idade: 17}]
+let count = 1;
+
+app.post('/usuarios', (req,res) => {
+ const {name,email} = req.body
+ count++;
+})
+app.get('/uauarios/:id', (req,res) => {
+    const {id} = req.params
+    const usuario = usuarios.find(usuario => usuario.id == id)
+})
+
+app.get('/usuarios' ,(req,res) => {
+    return res.json(usuarios);
+})
 app.listen(1232,()=>console.log("O server Esta ON!"))
 // console.log(cinema + ' // ' + slogan)
 
